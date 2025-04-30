@@ -1,0 +1,38 @@
+{
+    "L5G1": {
+        "description": "Curved peripheral structures with a gradual gradient of blue to pink",
+        "images": [
+            "visualizations/layer5_neuron55_group1_label1_img1.png",
+            "visualizations/layer5_neuron55_group1_label1_img2.png",
+            "visualizations/layer5_neuron55_group1_label1_img3.png",
+            "visualizations/layer5_neuron55_group1_label1_img4.png",
+            "visualizations/layer5_neuron55_group1_label1_img5.png"
+        ],
+        "label": 1,
+        "feature_map_id": 55
+    },
+    "L4G1": {
+        "description": "Curved edges with a blue to pink gradient",
+        "images": [
+            "visualizations/layer4_neuron826_group1_label0_img1.png",
+            "visualizations/layer4_neuron826_group1_label0_img2.png",
+            "visualizations/layer4_neuron826_group1_label0_img3.png",
+            "visualizations/layer4_neuron826_group1_label0_img4.png",
+            "visualizations/layer4_neuron826_group1_label0_img5.png"
+        ],
+        "label": 0,
+        "feature_map_id": 826
+    },
+    "L4G3": {
+        "description": "Curved edges with a blue to pink gradient",
+        "images": [
+            "visualizations/layer4_neuron221_group3_label0_img1.png",
+            "visualizations/layer4_neuron221_group3_label0_img2.png",
+            "visualizations/layer4_neuron221_group3_label0_img3.png",
+            "visualizations/layer4_neuron221_group3_label0_img4.png",
+            "visualizations/layer4_neuron221_group3_label0_img5.png"
+        ],
+        "label": 0,
+        "feature_map_id": 221
+    }
+}

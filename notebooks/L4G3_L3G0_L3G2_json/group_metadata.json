@@ -1,0 +1,38 @@
+{
+    "L4G3": {
+        "description": "Curved lines, gradient color transition from blue to pink",
+        "images": [
+            "visualizations/layer4_neuron221_group3_label0_img1.png",
+            "visualizations/layer4_neuron221_group3_label0_img2.png",
+            "visualizations/layer4_neuron221_group3_label0_img3.png",
+            "visualizations/layer4_neuron221_group3_label0_img4.png",
+            "visualizations/layer4_neuron221_group3_label0_img5.png"
+        ],
+        "label": 0,
+        "feature_map_id": 221
+    },
+    "L3G0": {
+        "description": "Curved lines, smooth gradient transition",
+        "images": [
+            "visualizations/layer3_neuron628_group0_label1_img1.png",
+            "visualizations/layer3_neuron628_group0_label1_img2.png",
+            "visualizations/layer3_neuron628_group0_label1_img3.png",
+            "visualizations/layer3_neuron628_group0_label1_img4.png",
+            "visualizations/layer3_neuron628_group0_label1_img5.png"
+        ],
+        "label": 1,
+        "feature_map_id": 628
+    },
+    "L3G2": {
+        "description": "Network of thin lines, reddish hue",
+        "images": [
+            "visualizations/layer3_neuron599_group2_label1_img1.png",
+            "visualizations/layer3_neuron599_group2_label1_img2.png",
+            "visualizations/layer3_neuron599_group2_label1_img3.png",
+            "visualizations/layer3_neuron599_group2_label1_img4.png",
+            "visualizations/layer3_neuron599_group2_label1_img5.png"
+        ],
+        "label": 1,
+        "feature_map_id": 599
+    }
+}

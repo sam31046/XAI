@@ -1,0 +1,38 @@
+{
+    "L4G1": {
+        "description": "Prominent vascular structures with branching patterns and dark central region.",
+        "images": [
+            "visualizations/layer4_neuron826_group1_label0_img1.png",
+            "visualizations/layer4_neuron826_group1_label0_img2.png",
+            "visualizations/layer4_neuron826_group1_label0_img3.png",
+            "visualizations/layer4_neuron826_group1_label0_img4.png",
+            "visualizations/layer4_neuron826_group1_label0_img5.png"
+        ],
+        "label": 0,
+        "feature_map_id": 826
+    },
+    "L3G0": {
+        "description": "Dilated blood vessels with bright surrounding areas.",
+        "images": [
+            "visualizations/layer3_neuron628_group0_label1_img1.png",
+            "visualizations/layer3_neuron628_group0_label1_img2.png",
+            "visualizations/layer3_neuron628_group0_label1_img3.png",
+            "visualizations/layer3_neuron628_group0_label1_img4.png",
+            "visualizations/layer3_neuron628_group0_label1_img5.png"
+        ],
+        "label": 1,
+        "feature_map_id": 628
+    },
+    "L3G1": {
+        "description": "Dark central areas with adjacent vascular networks.",
+        "images": [
+            "visualizations/layer3_neuron873_group1_label0_img1.png",
+            "visualizations/layer3_neuron873_group1_label0_img2.png",
+            "visualizations/layer3_neuron873_group1_label0_img3.png",
+            "visualizations/layer3_neuron873_group1_label0_img4.png",
+            "visualizations/layer3_neuron873_group1_label0_img5.png"
+        ],
+        "label": 0,
+        "feature_map_id": 873
+    }
+}

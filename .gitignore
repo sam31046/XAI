@@ -1,0 +1,75 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.log
+
+# Pip environment
+*.egg-info/
+*.egg
+*.whl
+dist/
+build/
+
+# Virtual environment folders
+venv/
+.env/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# === VSCode & IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Test Scripts ===
+test.py
+**/test.py
+
+# === Environment Variable Files ===
+.env
+**/.env
+**/**/.env
+
+# === Debug or Output folders ===
+debug/
+outputs/
+logs/
+
+# === Model Output & Large Result Folders ===
+results/
+results_resnet50_custom/
+results_resnet50_DR_5class/
+**/results/
+**/results_resnet50_custom/
+**/results_resnet50_DR_5class/
+
+# === Deep Learning Model Files ===
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.h5
+*.tflite
+*.onnx
+**/*.ckpt
+**/*.pt
+**/*.pth
+**/*.bin
+**/*.h5
+**/*.tflite
+**/*.onnx
+
+# === Graphviz Rendered Files ===
+*.gv
+*.gv.*
