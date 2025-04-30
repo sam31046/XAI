@@ -32,19 +32,10 @@ env/
 .DS_Store
 Thumbs.db
 
-# === Test Scripts ===
-test.py
-**/test.py
-
 # === Environment Variable Files ===
 .env
 **/.env
 **/**/.env
-
-# === Debug or Output folders ===
-debug/
-outputs/
-logs/
 
 # === Model Output & Large Result Folders ===
 results/
