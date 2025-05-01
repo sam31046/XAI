@@ -170,6 +170,24 @@ This document covers:
 
 ---
 
+## To-Do List / Future Work
+
+#### 1. Validate the accuracy of multimodal outputs in medical explainability  
+   - Currently using a [*resized Kaggle DR dataset*](https://www.kaggle.com/datasets/tanlikesmath/diabetic-retinopathy-resized/data) to train a binary classification ResNet-50.  
+   - A five-class training pipeline has been written and the train model needs to be integrated into the NeurFlow framework.  
+   - A robust evaluation method should be designed, this may include comparing across multimodal models, expert physician reviews, or generating consensus-backed insights.
+
+#### 2. Support additional datasets such as UK Biobank (UKB)  
+   - Training scripts for UKB has been developed but the trained models still need integration into the framework.  
+   - Future experiments should extend the visualization and validation flow to this dataset.
+
+#### 3. Integrate a flexible framework for multimodal model switching  
+   - Consider introducing abstractions that allow invoking different multimodal models for comparison or contradiction.  
+   - This feature would depend on the future direction of the research, especially if *model comparison* or *debate-based validation* becomes a key objective.
+
+
+---
+
 ## **License**
 
 This repository is licensed under the [MIT License](LICENSE).
