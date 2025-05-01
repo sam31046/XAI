@@ -169,3 +169,7 @@ This document covers:
 > ⚠️ Please follow this guide if you're porting the code to NeurFlow base or HiPerGator—some low-level compatibility issues are not handled by default.
 
 ---
+
+## **License**
+
+This repository is licensed under the [MIT License](LICENSE).
