@@ -120,7 +120,7 @@ Each edge includes:
 - Associated weights
 
 Diagram output sample:  
-![diagram sample](https://github.com/sam31046/XAI/blob/master/notebooks/concept_tree.png)  
+![diagram sample](./docs/concept_tree.png)  
 
 ---
 
@@ -146,3 +146,26 @@ root_dirs = ["L5G1_L4G1_L4G3_json", "L4G1_L3G0_L3G1_json", "L4G3_L3G0_L3G2_json"
 ```
 
 #### 4. The tree diagram will be saved as `concept_tree.png`.  
+
+---
+
+## Compatibility Patch for NeurFlow & UF HiPerGator
+
+If you're using the original [**NeurFlow** repository](https://github.com/tue147/neurflow) or running this project in the **UF HiPerGator** HPC environment, a compatibility and setup guide is provided to help you:
+
+📄 **[NeurFlow Installation and Patch Instructions](./docs/neurflow_patch.md)**  
+*(Written by Dong-You Jhong, Feb 2025)*
+
+This document covers:
+
+- Conda environment setup on HiPerGator
+- Torch/CUDA version alignment and installation
+- Circular import resolution between `utils.py` and `NeurFlow.py`
+- Dataset folder structure and validation label issues
+- Safe API key usage with `.env.secret`
+- Notebook-level kernel and import fixes
+- How to bypass token limitations in OpenAI API responses
+
+> ⚠️ Please follow this guide if you're porting the code to NeurFlow base or HiPerGator—some low-level compatibility issues are not handled by default.
+
+---
